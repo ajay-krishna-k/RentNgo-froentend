@@ -1,0 +1,15 @@
+.NavLink{
+  float: left;
+  display: block;
+  /* color: white; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent !important;
+  transition: border-bottom-color 0.3s !important;
+  color: white !important;
+}
+.NavLink:hover {
+  color: black !important;
+  border-bottom-color: rgb(255, 255, 255) !important;
+}

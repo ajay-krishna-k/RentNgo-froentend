@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Archivo+Narrow&family=Audiowide&family=Big+Shoulders+Inline+Text:wght@100;200;600&family=Bungee+Spice&family=Caveat&family=Cinzel&family=Josefin+Sans&family=Merriweather:wght@300&family=Nosifer&family=Open+Sans:wght@300&family=Rajdhani&family=Reem+Kufi+Ink&family=Roboto&family=Sacramento&family=Sedgwick+Ave+Display&family=Skranji&family=Special+Elite&family=Yellowtail&display=swap');
+body {
+  overflow-x: hidden;
+}
+h1,h4{
+    font-family:"Audiowide" ;
+}
+.abtt,.nav{
+    font-family:"Audiowide" ;
+ 
+}
+Link{
+    text-decoration: none;
+}
+/* Footer.css */
+.footer {
+    background-image: url("carfooter.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+  }
+  /* carzoom */
+  .cardcontainer{
+    padding:10px;
+    transition: all .5s;
+    overflow: hidden;
+  }
+  
+  
+  .galleryImg{
+    width:100%;
+    transform-origin: 50% 50%;
+    transition: transform 30s linear;
+    
+  }
+  
+   .galleryImg:hover{    
+    transform: scale(2) rotate(0.1deg);
+  }
+  
+  
+  /* footer hover */
+  .bth{
+    
+    color: #007bff !important;
+ 
+  }
+  .bth:hover {
+    background-color: #007bff !important; /* Use the primary color of your Bootstrap theme */
+    color: #fff !important; /* Set text color to white for better visibility */
+  }
+  /* header effect */
+  
+  span{
+    color:rgb(84, 4, 4);
+    font-size: 14px;
+    display: none;
+}
+input:invalid[focus='true'] ~ span{
+    display: block;
+}
+input:invalid[focus='true']{
+    border: 1px solid red;
+}
